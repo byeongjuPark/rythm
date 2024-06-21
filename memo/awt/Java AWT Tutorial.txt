@@ -36,3 +36,22 @@ public void setVisible(boolean status)
 
 
 ※※ 이벤트 핸들링
+java.awt.event 패키지에서 이벤트 핸들링을 위한 여러 Event 클래스들과 리스너 인터페이스를 제공한다.
+
+Button
+    public void addActionListener(ActionListener a){}
+MenuItem
+    public void addActionListener(ActionListener a){}
+TextField
+    public void addActionListener(ActionListener a){}
+    public void addTextListener(TextListener a){}
+TextArea
+    public void addTextListener(TextListener a){}
+Checkbox
+    public void addItemListener(ItemListener a){}
+Choice
+        public void addItemListener(ItemListener a){}
+List
+    public void addActionListener(ActionListener a){}
+    public void addItemListener(ItemListener a){}
+
